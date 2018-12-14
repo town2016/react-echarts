@@ -18,6 +18,10 @@ class App extends Component {
       </HashRouter>
     );
   }
+  
+  componentDidMount () {
+    console.log(this.refs)
+  }
 }
 
 export default App;
